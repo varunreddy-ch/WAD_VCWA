@@ -1,0 +1,35 @@
+.topNav {
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.sideNav {
+    background-color: brown;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+.sideNavRight {
+    background-color: brown;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    overflow-x: hidden;
+    margin-top: 0px;
+    margin-left: 85%;
+}
+
+.mid {
+    width: 70%;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-right: 0px;
+}
+
+
+body{
+    margin:  0 0 0;
+    background-color: aquamarine;
+}
