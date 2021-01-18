@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google meet</title>
     <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/index.js"></script>
 </head>
 <body>
     <div class="topNav">
@@ -41,7 +42,7 @@
             <h2>Other Meetings</h2>
     </div>
 
-    <div class="sideNavRight">
+    <div id="id1" class="sideNavRight" onmouseover="m1" onmouseout="m2">
         <h2>Other Meetings</h2>
         <h2>Other Meetings</h2>
         <h2>Other Meetings</h2>
@@ -63,7 +64,24 @@
         <h2>Other Meetings</h2>
 </div>
 
-    
+<div id="container">
+	<video autoplay="true" id="videoElement">
+	
+	</video>
+</div>
+<script>
+    var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+      video.srcObject = stream;
+    })
+    .catch(function (err0r) {
+      console.log("Something went wrong!");
+    });
+}
+</script>
     
 </body>
 </html>
