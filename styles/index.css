@@ -40,14 +40,21 @@ body{
     margin-left: 84%;
 }
 .sideNav,.sideNavRight{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 15px 50px;
+    /*padding: 10px;*/
     background-color:  rgb(240, 99, 99);
     height: 80%;
     width: 15%;
     position: fixed;
     overflow-x: hidden;
     margin-top: 1%;
+}
+.meeting-heading,.people-heading{
+    background-color: rgb(235, 148, 48);
+    color: rgb(68, 148, 61);
+    position: fixed;
+    width: 15%;
+    border-radius: 15px 50px 0px 0px;
 }
 
 ::-webkit-scrollbar {
