@@ -1,0 +1,18 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+.logo{
+    float: left;
+    font-size: 2rem;
+    color: blueviolet;
+}
+.navBar{
+    align-items: ;
+    text-align: center;
+    background-color: aquamarine;
+}
+.signin{
+    text-align: right;
+    margin-right: 2%;
+}
