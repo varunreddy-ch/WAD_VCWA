@@ -1,11 +1,10 @@
 .topNav {
     background-color: blueviolet;
     overflow: hidden;
-    /*position: fixed;*/
 }
 
 .sideNav {
-    background-color:  rgb(240, 99, 99);
+    background-color: brown;
     height: 100%;
     width: 15%;
     position: fixed;
@@ -13,7 +12,7 @@
 }
 
 .sideNavRight {
-    background-color: rgb(240, 99, 99);
+    background-color: brown;
     height: 100%;
     width: 15%;
     position: fixed;
@@ -29,47 +28,8 @@
     margin-right: 0px;
 }
 
+
 body{
     margin:  0 0 0;
     background-color: aquamarine;
 }
-
-/* dont edit */
-/* width */
-.sideNavRight{
-    margin-left: 84%;
-}
-.sideNav,.sideNavRight{
-    border-radius: 20px;
-    padding: 10px;
-    background-color:  rgb(240, 99, 99);
-    height: 80%;
-    width: 15%;
-    position: fixed;
-    overflow-x: hidden;
-    margin-top: 1%;
-}
-
-::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 5px 0 5px aquamarine; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background:#909090; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #ffffff; 
-  }
-
-
-/* till here*/
