@@ -1,1 +1,0 @@
-x = document.getElementById(ihuaj)
