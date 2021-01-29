@@ -1,0 +1,38 @@
+.sign-in{
+    padding-top: 0px;
+    padding-bottom: 0px;    
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+
+}
+
+.w3-card-4 {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.margin {
+    width: 25%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+    float: left;
+}
+
+.margin1{
+    width: 91%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+    float: left;
+}
