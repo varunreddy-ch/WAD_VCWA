@@ -1,0 +1,63 @@
+#container {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 1000px;
+	height: 500px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+#body {
+	background: rgb(55, 55, 55);
+	margin-top:50px;
+	align-items: center;
+}
+
+#imageView {
+	border: 1px solid #000;
+}
+
+#imageTemp {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+
+canvas {
+	border-radius: 5px;
+	cursor: url(../pen.png), crosshair;
+}
+
+#text_tool {
+	position: absolute;
+	border: 1px dashed black;
+	outline: 0;
+	z-index: 1000 !important;
+	display: none;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.container .btn.btn-sm {
+	background: #06f;
+	box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.5);
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	text-shadow: 0 1px #06f;
+	display: inline-block;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin-right: 5px;
+}
+
+.container .btn.btn-sm:active {
+	background: #06f;
+}
+
+label {
+	color: #fff;
+}
