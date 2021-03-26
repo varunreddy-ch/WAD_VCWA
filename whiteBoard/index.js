@@ -6,7 +6,6 @@ const port = 3001;
 var list = []
 app.use(express.static(__dirname + '/public'));
 
-
 function onConnection(socket) {
     socket.on("message", (args) => {
         socket.emit("message", list);
@@ -65,9 +64,7 @@ function onConnection(socket) {
     socket.on('disconnect', () => {
         console.log("User disconnected");
     });
-
 }
-
 io.on('connection', onConnection);
 
 http.listen(port, () => console.log('listening on port ' + port));

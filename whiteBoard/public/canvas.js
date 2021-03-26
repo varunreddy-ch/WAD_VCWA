@@ -639,7 +639,6 @@ if (window.addEventListener) {
         }
 
 
-        
         //Old Drawing
         socket.emit("message", "hello")
         socket.on("message", first)
@@ -667,10 +666,7 @@ if (window.addEventListener) {
                     }
                 }
             }
-            
         }
-
         init();
-
     }, false);
 }
